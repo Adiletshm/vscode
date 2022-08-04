@@ -1,0 +1,136 @@
+/* ?Пвсевдоклассы и псевдоэлементы */
+
+/* !hover - отрабатывает при наведении */
+
+/* div {
+  background-color: red;
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+  border-radius: 10px;
+  color: white;
+} */
+/* div:hover {
+  background-color: yellow;
+  transition: 2s;
+} */
+/* ?псевдокласс для ссылок */
+
+/* !visited - подсвечивает посещенные ссылки */
+
+/* a:visited {
+  color: blueviolet;
+} */
+/* !active - подсвечивает ссылку в момент нажатия */
+
+/* a:active {
+  color: darkgreen;
+}
+.block {
+  background-color: violet;
+  width: 100px;
+  height: 100px;
+}
+.block:active {
+  background-color: teal;
+  transition: 3s;
+}
+ul {
+  list-style-type: none;
+} */
+/* div {
+  background-color: darkgreen;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+/* !first-child, last-child, nth-child() - для обращения только к некоторым элементам на странице */
+
+/* li:first-child > div {
+  background-color: yellow;
+}
+li:nth-child(4) > div {
+  background-color: red;
+}
+li:last-child > div {
+  background-color: blueviolet;
+} */
+/* ul li::marker {
+  color: red;
+} */
+/* input {
+  background-color: black;
+  border: 2px solid red;
+  border-radius: 10px;
+  color: red;
+  transition: 0.8s;
+} */
+/* !focus - отрабатывае при фокусировке на элементе  */
+
+/* input:focus {
+  background-color: yellow;
+  transition: 0.8s;
+} */
+/* !not - задает стили всему, что не содержит данный селектор */
+
+/* .div-1,
+.div-2 {
+  width: 100px;
+  height: 100px;
+  margin: 5px 0;
+  background-color: red;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+div:not(.div-2) {
+  background-color: yellowgreen;
+} */
+
+/* !valid, invalid -проверка данных в инпуте */
+
+/* input:valid { */
+
+/* ! проверка на правильность данных по типу */
+
+/* background-color: green; */
+/* }
+input:invalid { */
+
+/* ! если введени неправельные данные */
+
+/* background-color: red; */
+/* } */
+
+/* !ПСЕВДОЭЛЕМЕНТЫ */
+
+/* h1::before { - контент до основного контента
+  content: "World";
+}
+h1::after { - контент после основного контента
+  content: "World";
+} */
+
+/* !selection - применяет стили к выделенному тексту */
+
+/* p::selection {
+  color: red;
+  background-color: black;
+} */
+
+/* !first-letter - обращение к первой букве текста */
+/* h1::first-letter {
+  color: red;
+  font-size: 60px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} */
+
+/* !first-line */
+
+/* p::first-line {
+  font-size: 25px;
+  color: red;
+} */
